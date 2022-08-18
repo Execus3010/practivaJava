@@ -16,7 +16,7 @@ public class EncuestaCondicionales {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) {       
         int opinion;
         Scanner leer = new Scanner(System.in);
         System.out.println("Clasifique la peli de 1 a 5 estrellas");
