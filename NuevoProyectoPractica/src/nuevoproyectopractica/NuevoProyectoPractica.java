@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package nuevoproyectopractica;
+import java.util.Scanner;
 
 /**
  *
@@ -71,6 +72,7 @@ public class NuevoProyectoPractica {
         System.out.print("Hola");
         System.out.print("mundo");
         
+         
         /*EJERCICIO 4
 Define una variable que aloje tu nombre y otra que guarde tu edad. Imprime ambas variables por
 pantalla.*/
@@ -86,7 +88,24 @@ botón tab o mejor dicho tabular.
 Esto nos va a generar un System.out.println() para poder escribir lo que
 queramos.*/
         
+        //SCANNER
+       // Scanner leer = new Scanner(System.in);
+        /*.nextInt() = numeros
+          .nextLine() = String
+            .nextDouble() = real 
+       
+        */
+         //int numeros = leer.nextInt();
         
-    }
+         
+         //CORRECCION DE ERRORES
+        /* Scanner leer = new Scanner(System.in);
+        System.out.println("Ingresa tu edad por favor");
+        int age = leer.nextInt();
+
+        System.out.println("Ingresa tu nombre");
+        String name = leer.nextLine();*/
+        
+            }
     
 }
