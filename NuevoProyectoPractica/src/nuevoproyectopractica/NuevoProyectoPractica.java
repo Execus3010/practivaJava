@@ -57,8 +57,34 @@ public class NuevoProyectoPractica {
         System.out.println(banderados);
         */
         
+        //ESCRITURA EN JAVA
         
+        int num4 = 10;
         
+        //MOSTRAR UN MENSAJE O VARIABLE EN "PANTALLA" (OUTPUT) 
+        System.out.println(num4);
+        
+        //MOSTRAR MENSAJE + VARIABLE
+        System.out.println("La variable posee el valor " + num4);
+        
+        //MOSTRAR EL MENSAJE SIN SALTOS DE LINEA
+        System.out.print("Hola");
+        System.out.print("mundo");
+        
+        /*EJERCICIO 4
+Define una variable que aloje tu nombre y otra que guarde tu edad. Imprime ambas variables por
+pantalla.*/
+        
+        String nombres = "Emanuel Ledesma";
+        int edad = 29;
+        
+        System.out.println("Hola mi nombre es " + nombres + " y tengo " + edad + " años.");
+        
+        /*Recomendamos que hagan el siguiente experimento: tipear en
+minúsculas la palabra sout y apenas terminamos de escribirla tocar el
+botón tab o mejor dicho tabular.
+Esto nos va a generar un System.out.println() para poder escribir lo que
+queramos.*/
         
         
     }
