@@ -128,6 +128,7 @@ válido para tipo de bomba”*/
                     break;
                 default:
                     System.out.println("No existe un valor valido para el tipo de bomba");
+                    
             }
             
         }
