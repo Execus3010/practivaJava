@@ -28,7 +28,7 @@ public class CondicionalesJava {
         
         //ESTRUCTURA IF ELSE:
         /*        
-        if(<condicion>)ñ
+        if(<condicion>){
         <sentensias A>
         } else{
         <sentensias B>
