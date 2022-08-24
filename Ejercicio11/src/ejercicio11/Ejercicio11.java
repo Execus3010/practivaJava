@@ -33,8 +33,7 @@ directamente, se debe mostrar el siguiente mensaje de confirmación: ¿Está seg
 desea salir del programa (S/N)? Si el usuario selecciona el carácter ‘S’ se sale del
 programa, caso contrario se vuelve a mostrar el menú.*/
         
-        Scanner leer = new Scanner(System.in);
-        Scanner ler = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);       
         System.out.println("Ingrese dos numeros enteros");
         double num1 = leer.nextInt();
         double num2 = leer.nextInt();        
@@ -70,7 +69,7 @@ programa, caso contrario se vuelve a mostrar el menú.*/
                 break;
             case 5 :                
                 System.out.println("Estas seguro?");
-                res = ler.nextLine();
+                res = leer.next();
                   break;            
           }
                 
