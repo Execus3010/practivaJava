@@ -26,11 +26,26 @@ usuario al comenzar. Ejemplo: si se ingresa el número 3:
 123*/
         
         Scanner leer = new Scanner(System.in);
-        System.out.println("Ingrese un numero");
-        int num = leer.nextInt();
         
-        for (int i = 1; i <= num; i++) {
-            System.out.println(i);
+        System.out.println("Ingrese un numero");//EL USUARIO INGRESA EL TAMAÑO DE LA ESCALERA
+        int num = leer.nextInt();
+        int cont = 1; //SE INICIALIZA UN CONTADOR
+        
+        for (int i = 1; i <= num; i++) {//BUBLE FOR PARA CICLAR
+         
+            System.out.print(i+" ");//IMPRIMIMOS NUESTRO NUMERO
+            
+            if (cont==i) {//CONDICION PARA REINICIAR EL CICLO
+                System.out.println("");
+                cont++;
+                i=0;
+                
+            }
+           
+            if(cont == num+1){//CONDICION PARA ROMPER EL CICLO Y EVITAR UNA LINEA FINAL DOBLE
+                break;
+            }
+           
             
         }
         

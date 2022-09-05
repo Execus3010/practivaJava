@@ -27,7 +27,7 @@ Ejemplo:
 0-1-2
 0-1-E
 Nota: investigar función equals() y como convertir números a String.*/
-                
+           
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 for (int k = 0; k < 10; k++) {
@@ -118,8 +118,7 @@ Nota: investigar función equals() y como convertir números a String.*/
             }
             
         }
-     }
-        
+     }          
         
   }
 } 

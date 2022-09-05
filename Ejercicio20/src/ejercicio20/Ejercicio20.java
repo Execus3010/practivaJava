@@ -26,7 +26,7 @@ están entre el 1 y el 9.*/
        
        Scanner leer = new Scanner(System.in);
         int[][] cuadrado = new int[3][3];
-        int sumaFilas = 0, sumaColumnas = 0, sumaDiagon=0;
+        int sumaFilas = 0, sumaColumnas = 0, sumaDiagon=0, sumaDiagon2;
         int fila1=0, fila2, fila3, columna1, columna2, columna3, diagon1, diagon2;
         
         
@@ -54,21 +54,21 @@ están entre el 1 y el 9.*/
                 System.out.print(cuadrado[i][j]+" ");
                  sumaColumnas=sumaColumnas+cuadrado[j][i];
                  
-                 if (i==0) {
-                    fila1=sumaFilas;                    
-                }else if(i==1){
-                    fila2=sumaFilas;
-                }else if(i==2){
-                    fila3=sumaFilas;
+                 if (i==j) {
+                   sumaDiagon=sumaDiagon+cuadrado[i][j];
                 }
+                 
             }
            
             System.out.println(" = " + sumaFilas);
             sumaFilas=0;
             System.out.println(sumaColumnas+"===");
             sumaColumnas=0;
+            
         }
-        
+        sumaDiagon2=cuadrado[2][0]+cuadrado[1][1]+cuadrado[0][2];
+        System.out.println(sumaDiagon2+"diago2");
+        System.out.println(sumaDiagon+"diago");
         
         
         
